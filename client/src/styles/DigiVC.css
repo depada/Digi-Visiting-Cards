@@ -1,0 +1,279 @@
+/* DigiVC.css */
+.digivc-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  border: 8px double #de9b72;
+}
+
+.digivc-card {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.digital-vc-content {
+  display: flex;
+  padding: 20px 20px 0px 20px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.digivc-logo-container {
+  height: 100px;
+  position: relative;
+  width: 25%;
+  bottom: 0px;
+  left: 10px;
+}
+
+.digivc-logo {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+  clip-path: circle(100%);
+  width: 90%;
+}
+
+.header-container {
+  max-height: 335px;
+}
+
+.mid-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.midImage {
+  width: 30vw;
+  height: 100%;
+  margin-bottom: 20px;
+  /* transform: scale(2); */
+}
+.qrContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.qrCode {
+  height: 25vh;
+  width: 25vw;
+}
+
+/* @page {
+  size: A4 portrait;
+  background-image: url("../assets/logo.jpg");
+  background-repeat: round;
+  mix-blend-mode: multiply;
+} */
+
+/* Additional print-specific styles */
+/* @media print {
+  body {
+    background-color: #fff !important;
+  }
+  .digivc-card {
+    width: 700px;
+    margin: 0 !important;
+  }
+  .headerImg {
+    height: 450px;
+    width: 100%;
+    object-fit: fill;
+  }
+  .header-container {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 100%;
+  }
+  .digivc-logo-container {
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+  }
+  .digital-vc-content {
+    margin-top: 550px;
+  }
+  .digital-vc-content h2 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  .digital-vc-content p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  .digivc-card {
+    border: 0;
+    box-shadow: none;
+  }
+  .icon-container {
+    font-size: 24px;
+  }
+  .mid-content img {
+    object-fit: cover;
+  }
+  .qrCode {
+    transform: scale(2.5);
+    margin: 100px 0 0 75px;
+  }
+  @page {
+    .footerImg {
+      width: 100%;
+    height: 350px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+      display: none;
+    }
+  }
+  @page :last {
+    .footerImg {
+      position: fixed;
+      width: 100%;
+      height: 350px;
+      bottom: 0px;
+      left: 0px;
+    }
+  }
+} */
+/* 
+@media print {
+  body {
+    background-color: #fff !important;
+  }
+
+  .digivc-card {
+    width: 700px;
+    margin: 0 !important;
+    border: 0;
+    box-shadow: none;
+  }
+  .headerImg {
+    width: 100%;
+    object-fit: fill;
+  }
+  .digivc-logo-container {
+    height: 200px;
+    position: relative;
+    width: 25%;
+    bottom: 0px;
+    left: 10px;
+  }
+  .digivc-logo {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    clip-path: circle(100%);
+    width: 90%;
+  }
+  .digital-vc-content {
+    margin-top: 100px;
+  }
+  .digital-vc-content h2 {
+    font-size: 60px;
+  }
+  .digital-vc-content p {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .icon-container {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+
+  .midImage {
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .qrCode {
+    width: 100%;
+    height: 100%;
+  }
+  .last-page {
+    page: last_page;
+  }
+  @page last_page {
+    .footerImg {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+    }
+  }
+} */
+/* @page {
+  @bottom-center {
+    bottom: 0px;
+    width: 100%;
+    content: element(footerImg);
+  }
+}
+@media print {
+  body {
+    background-color: #fff !important;
+  }
+
+  .digivc-card {
+    width: 700px;
+    margin: 0 !important;
+    border: 0;
+    box-shadow: none;
+  }
+  .headerImg {
+    width: 100%;
+    object-fit: fill;
+  }
+  .digivc-logo-container {
+    height: 200px;
+    position: relative;
+    width: 25%;
+    bottom: 0px;
+    left: 10px;
+  }
+  .digivc-logo {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    clip-path: circle(100%);
+    width: 90%;
+  }
+  .digital-vc-content {
+    margin-top: 100px;
+  }
+  .digital-vc-content h2 {
+    font-size: 60px;
+  }
+  .digital-vc-content p {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .icon-container {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+
+  .midImage {
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .qrCode {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footerImg {
+    position: running(footerImg);
+  }
+} */
